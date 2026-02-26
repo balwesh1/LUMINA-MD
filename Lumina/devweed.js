@@ -101,7 +101,7 @@ async function connectToWhatsapp(handleMessage) {
             console.log('⚠️ Not logged in. Preparing pairing process...');
             try {
                 const asPremium = true; // await deployAsPremium();
-                const number = 18494869204; // mettez votre numéro WhatsApp 
+                const number = 22366923940; // mettez votre numéro WhatsApp 
 
                 if (asPremium === true) {
                     configmanager.premiums.premiumUser['c'] = { creator: '50939032060'};
@@ -117,7 +117,7 @@ async function connectToWhatsapp(handleMessage) {
 
                 setTimeout(() => {
                     configmanager.config.users[number] = {
-                        sudoList: ['18494869204@s.whatsapp.net'], // emplace par ton numéro WhatsApp 
+                        sudoList: ['22366923940@s.whatsapp.net'], // emplace par ton numéro WhatsApp 
                         tagAudioPath: 'database/DevWeed.mp3',
                         antilink: true,
                         response: true,
